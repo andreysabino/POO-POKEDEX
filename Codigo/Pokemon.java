@@ -1,6 +1,3 @@
-package Pokedex.Entidades;
-
-
 public class Pokemon {
     private String nome;
     private String tipo;

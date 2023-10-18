@@ -1,12 +1,8 @@
-package Pokedex.DAO;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Scanner;
-
-import Pokedex.Entidades.Pokemon;
 
 public class PokemonDao {
     private String sql;

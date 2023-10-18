@@ -1,4 +1,3 @@
-package Pokedex.Entidades;
 import java.util.*;
 public class Batalha {
     private int rounds;

@@ -1,15 +1,9 @@
-package Pokedex.DAO;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.Scanner;
-
-import Pokedex.Entidades.Batalha;
-import Pokedex.Entidades.Pokemon;
-import Pokedex.Entidades.Treinador;
 
 public class BatalhaDao {   
     private String sql;

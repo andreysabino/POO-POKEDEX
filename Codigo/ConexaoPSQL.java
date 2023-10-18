@@ -1,5 +1,3 @@
-package Pokedex.DAO;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -7,9 +5,9 @@ import java.sql.SQLException;
 public class ConexaoPSQL {
     private static ConexaoPSQL instanciador;
     private Connection conector;
-    private final String url = "jdbc:postgresql://localhost:5432/Pokedex";
-    private final String usuario = "Mikael";
-    private final String senha = "mikael";
+    private final String url = "jdbc:postgresql://isabelle.db.elephantsql.com:5432/mpehmhjh";
+    private final String usuario = "mpehmhjh";
+    private final String senha = "cIHMrms2EV6h-UqyyWgE0pgpaj7PCwF0";
 
     private ConexaoPSQL(){
         try {

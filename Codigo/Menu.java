@@ -1,9 +1,5 @@
-package Pokedex.Entidades;
-
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
-import Pokedex.DAO.*;
 
 public class Menu {
     public static void gerenciarTreinador() {
